@@ -54,16 +54,31 @@ body {
 .my-about-row {
     flex-direction: column;
     border: 2px solid green;
+    color: limegreen;
 }
 .my-about-title-row {
     min-height: 80px;
     line-height: 80px;
 }
 .my-about-col {
-    border: 2px dashed lightgreen;
+    border: 2px dashed limegreen;
     min-height: 200px;
 } 
 .my-about-download {
     min-height: 50px;
     line-height: 50px;
+}
+/** Section - "form" **/
+.my-form-row {
+    border: 2px solid darkslategray;
+    flex-direction: column;
+    color: grey;
+}
+.my-title-form {
+    min-height: 80px;
+    line-height: 80px;
+}
+.my-form-col {
+    min-height: 400px;
+    border: 2px dashed gray;
 }
