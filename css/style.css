@@ -82,3 +82,25 @@ body {
     min-height: 400px;
     border: 2px dashed gray;
 }
+
+/* FOOTER SECTION */
+/** Section - "info" **/
+.my-info-row {
+    border: 2px solid red;
+    color: darkred;
+}
+.my-info-col {
+    min-height: 150px;
+    border: 2px dashed darkred;
+    line-height: 150px;
+}
+/** Section - "copyright" **/
+.my-copyright-row {
+    border: 2px solid darkorchid;
+    color: darkviolet;
+}
+.my-copyright-row {
+    min-height: 100px;
+    border: 2px dashed darkviolet;
+    line-height: 100px;
+}
