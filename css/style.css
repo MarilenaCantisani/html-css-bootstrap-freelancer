@@ -1,0 +1,32 @@
+/* BODY-STYLE */
+body {
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+/* HEADER SECTION */
+/** Header **/
+.my-container-fluid {
+    min-height: 50px;
+    border: 2px solid blue;
+}
+.my-header-row .my-logo, .my-header-row .my-nav-menu {
+    min-height: 50px;
+    border: 2px dashed lightskyblue;
+    line-height: 50px;
+}
+.my-header-row .my-nav-menu {
+    text-align: right;
+}
+/** Spotlight **/
+.my-row-spotlight {
+    min-height: 250px;
+    border: 2px solid darkorange;
+}
+
+.my-row-spotlight .my-col-spotlight {
+    min-height: 250px;
+    border: 2px dashed goldenrod;
+    text-align: center;
+    line-height: 250px;
+}
