@@ -35,6 +35,7 @@ body {
 }
 
 /* MAIN SECTION */
+/** Section - "portfolio" **/
 .my-main-row {
     border: 2px solid darkmagenta;
     flex-direction: column;
@@ -48,4 +49,21 @@ body {
     min-height: 140px;
     border: 2px dashed palevioletred;
     line-height: 140px;
+}
+/** Section - "about" **/
+.my-about-row {
+    flex-direction: column;
+    border: 2px solid green;
+}
+.my-about-title-row {
+    min-height: 80px;
+    line-height: 80px;
+}
+.my-about-col {
+    border: 2px dashed lightgreen;
+    min-height: 200px;
+} 
+.my-about-download {
+    min-height: 50px;
+    line-height: 50px;
 }
