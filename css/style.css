@@ -2,6 +2,7 @@
 body {
     font-weight: 500;
     text-transform: uppercase;
+    text-align: center;
 }
 
 /* HEADER SECTION */
@@ -14,6 +15,8 @@ body {
     min-height: 50px;
     border: 2px dashed lightskyblue;
     line-height: 50px;
+    text-align: left;
+    color: lightskyblue;
 }
 .my-header-row .my-nav-menu {
     text-align: right;
@@ -27,6 +30,22 @@ body {
 .my-row-spotlight .my-col-spotlight {
     min-height: 250px;
     border: 2px dashed goldenrod;
-    text-align: center;
+    color: goldenrod;
     line-height: 250px;
+}
+
+/* MAIN SECTION */
+.my-main-row {
+    border: 2px solid darkmagenta;
+    flex-direction: column;
+    color:palevioletred;
+}
+.my-title-main {
+    min-height: 80px;
+    line-height: 80px;
+}
+.my-main-col {
+    min-height: 140px;
+    border: 2px dashed palevioletred;
+    line-height: 140px;
 }
