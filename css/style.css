@@ -1,64 +1,47 @@
-/* BODY-STYLE */
-body {
-    font-weight: 500;
-    text-transform: uppercase;
-    text-align: center;
-}
-
 /* HEADER SECTION */
 /** Header **/
-.my-container-fluid {
+.bg-blue {
+    background-color: #2c3e50;
+}
+#nav-section .navbar-brand, #nav-section .nav-link, #nav-section .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+
+.my-header-row {
     min-height: 50px;
     border: 2px solid blue;
 }
 .my-header-row .my-logo, .my-header-row .my-nav-menu {
-    min-height: 50px;
     border: 2px dashed lightskyblue;
-    line-height: 50px;
-    text-align: left;
-    color: lightskyblue;
-}
-.my-header-row .my-nav-menu {
-    text-align: right;
 }
 /** Spotlight **/
-.my-row-spotlight {
+#spotlight {
     min-height: 250px;
     border: 2px solid darkorange;
-}
-
-.my-row-spotlight .my-col-spotlight {
-    min-height: 250px;
-    border: 2px dashed goldenrod;
-    color: goldenrod;
-    line-height: 250px;
 }
 
 /* MAIN SECTION */
 /** Section - "portfolio" **/
 .my-main-row {
     border: 2px solid darkmagenta;
-    flex-direction: column;
-    color:palevioletred;
 }
 .my-title-main {
     min-height: 80px;
-    line-height: 80px;
 }
 .my-main-col {
     min-height: 140px;
     border: 2px dashed palevioletred;
-    line-height: 140px;
 }
 /** Section - "about" **/
 .my-about-row {
-    flex-direction: column;
     border: 2px solid green;
-    color: limegreen;
 }
 .my-about-title-row {
     min-height: 80px;
-    line-height: 80px;
 }
 .my-about-col {
     border: 2px dashed limegreen;
@@ -66,17 +49,13 @@ body {
 } 
 .my-about-download {
     min-height: 50px;
-    line-height: 50px;
 }
 /** Section - "form" **/
 .my-form-row {
     border: 2px solid darkslategray;
-    flex-direction: column;
-    color: grey;
 }
 .my-title-form {
     min-height: 80px;
-    line-height: 80px;
 }
 .my-form-col {
     min-height: 400px;
@@ -87,20 +66,14 @@ body {
 /** Section - "info" **/
 .my-info-row {
     border: 2px solid red;
-    color: darkred;
 }
 .my-info-col {
     min-height: 150px;
     border: 2px dashed darkred;
-    line-height: 150px;
 }
 /** Section - "copyright" **/
-.my-copyright-row {
-    border: 2px solid darkorchid;
-    color: darkviolet;
-}
-.my-copyright-row {
+
+.my-copyright {
     min-height: 100px;
     border: 2px dashed darkviolet;
-    line-height: 100px;
 }
