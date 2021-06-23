@@ -5,8 +5,14 @@
 .bg-light-green {
     background-color: #1abc9c;
 }
+.bg-light-blue {
+    background-color: #3a546d;
+}
 .text-blue {
     color: #2c3e50;
+}
+.text-light-green {
+    color: #1abc9c;
 }
 /* HEADER SECTION */
 /** Header **/
@@ -65,16 +71,22 @@
 }
 /* FOOTER SECTION */
 /** Section - "info" **/
-.my-info-row {
-    border: 2px solid red;
+#info-box i {
+    border-radius: 50%;
+    border: 1px solid white;
+    padding: 6px 8px;
+    margin: 0 5px;
+    font-size: 12px;
 }
-.my-info-col {
-    min-height: 150px;
-    border: 2px dashed darkred;
+#info-box h3 {
+    font-size: 16px;
 }
-/** Section - "copyright" **/
-
-.my-copyright {
-    min-height: 100px;
-    border: 2px dashed darkviolet;
+#info-box p {
+    font-size: 12px;
+}
+#copyright .row {
+    min-height: 60px;
+}
+#copyright .row .col {
+    font-size: 12px;
 }
