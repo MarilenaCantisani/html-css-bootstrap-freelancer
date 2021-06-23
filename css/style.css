@@ -5,6 +5,9 @@
 .bg-light-green {
     background-color: #1abc9c;
 }
+.text-blue {
+    color: #2c3e50;
+}
 /* HEADER SECTION */
 /** Header **/
 #nav-section .navbar-brand, #nav-section .nav-link, #nav-section .navbar-toggler {
@@ -15,31 +18,30 @@
     filter: invert(1);
 }
 /** Spotlight **/
-img {
+#spotlight img {
     height: 200px;
 }
-/* #spotlight .star::before {
+.star::before, .star::after {
     content: "";
     width: 100px;
     height: 2px;
-    color: #fff;
+    display: inline-block;
     background-color: #fff;
-
-} */
-
+    border-radius: 1px;
+    line-height: 4px;
+    vertical-align: middle;
+}
 
 /* MAIN SECTION */
-/** Section - "portfolio" **/
-.my-main-row {
-    border: 2px solid darkmagenta;
+/** Section - "portfolio" **/ 
+#portfolio .star::before, #portfolio .star::after {
+    background-color: #2c3e50;
 }
-.my-title-main {
-    min-height: 80px;
+#portfolio img {
+    max-width: 100%;
 }
-.my-main-col {
-    min-height: 140px;
-    border: 2px dashed palevioletred;
-}
+
+
 /** Section - "about" **/
 .my-about-row {
     border: 2px solid green;
