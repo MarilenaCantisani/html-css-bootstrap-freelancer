@@ -41,33 +41,28 @@
     max-width: 100%;
 }
 
-
 /** Section - "about" **/
-.my-about-row {
-    border: 2px solid green;
+#about button {
+    color: #fff;
+    border-color: #fff;
 }
-.my-about-title-row {
-    min-height: 80px;
-}
-.my-about-col {
-    border: 2px dashed limegreen;
-    min-height: 200px;
-} 
-.my-about-download {
-    min-height: 50px;
-}
-/** Section - "form" **/
-.my-form-row {
-    border: 2px solid darkslategray;
-}
-.my-title-form {
-    min-height: 80px;
-}
-.my-form-col {
-    min-height: 400px;
-    border: 2px dashed gray;
+#about button:hover {
+    background-color: #3a546d;
 }
 
+/** Section - "form" **/
+#form .star::before, #form .star::after {
+    background-color: #2c3e50;
+}
+#form button {
+    background-color: #1abc9c;
+    border-color: #1abc9c;
+}
+#form .form-control {
+    border-radius: 0;
+    border: 0;
+    border-bottom: 1px solid lightgrey;
+}
 /* FOOTER SECTION */
 /** Section - "info" **/
 .my-info-row {
